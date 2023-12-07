@@ -1,0 +1,128 @@
+.question {
+    background-image: url(../imgaes/querstion.png);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    /* margin-left: 20vh; */
+    background-repeat: no-repeat;
+    top: 325px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10vh;
+}
+
+.question h5 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media screen and (max-width:450px) {
+    .buttons {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 3rem;
+    }
+
+    .question {
+        height: 20rem;
+    }
+
+    .btn {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .question {
+        height: 20rem;
+        /* width: 30rem; */
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 6rem;
+    }
+
+    .question h3 {
+        font-size: 2rem;
+    }
+
+    .question .btn {
+        width: 15rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+.plain1 {
+    color: #F9FAFB;
+    font-family: Base Neue Trial;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.02rem;
+}
+
+.form {
+    margin-left: 6rem;
+
+}
+.xd{
+     background-color: #05172E;
+}
+.form-control {
+    width: 320px;
+    height: 44px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    gap: 4px;
+
+}
+
+.contact {
+    background-color: #05172E;
+    color: white;
+    margin-top: 40px;
+    height: 40vh;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        /* width: 30rem; */
+        padding-top: 3rem;
+            background-color: #05172E;
+    color: white;
+    margin-top: 40px;
+    /* height: 40vh; */
+    border-radius: 1rem;
+    }
+    .be{
+        width: 20rem;
+        text-align: center;
+        margin-left: 3rem;
+    }
+
+    .plain1 {
+        color: #F9FAFB;
+        font-family: Base Neue Trial;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        padding-left: 4rem;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .form .btn {
+        width: 10rem;
+        height: 4rem;
+    }
+}
